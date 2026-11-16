@@ -1,0 +1,240 @@
+{
+  "software_version": "0.2.0",
+  "started_at_utc": "2026-11-16T12:27:45.885082+00:00",
+  "input_file": "numbered.pdf",
+  "sha256": "60ff35409a7e04b45d4ccbdad05a2571dba750ae0b4ee391cd9e55b16d721513",
+  "mode": "pubmed",
+  "extraction": {
+    "pages": [
+      {
+        "page": 1,
+        "text_characters": 330,
+        "has_text": true
+      }
+    ],
+    "status": "references_extracted",
+    "references": [
+      {
+        "number": 1,
+        "raw": "Whitley E., Ball J. Statistics review 4: Sample size calculations. Critical Care. 2002; 6: 335-341. doi:10.1186/cc1521",
+        "pages": [
+          1
+        ],
+        "title": "Statistics review 4: Sample size calculations",
+        "author_surnames": [
+          "Whitley",
+          "Ball"
+        ],
+        "year": 2002,
+        "doi": "10.1186/cc1521",
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 2,
+        "raw": "Petrov I., Sidorova A. Statistics review 4: Sample size calculations. Critical Care. 2002; 6: 335-341. doi:10.1186/cc1473",
+        "pages": [
+          1
+        ],
+        "title": "Statistics review 4: Sample size calculations",
+        "author_surnames": [
+          "Petrov",
+          "Sidorova"
+        ],
+        "year": 2002,
+        "doi": "10.1186/cc1473",
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      }
+    ],
+    "warnings": [
+      "Rule-based title and author extraction requires review; unsupported styles may be missed"
+    ],
+    "section_text": "1. Whitley E., Ball J. Statistics review 4: Sample size calculations.\nCritical Care. 2002; 6: 335-341. doi:10.1186/cc1521\n2. Petrov I., Sidorova A. Statistics review 4: Sample size calculations.\nCritical Care. 2002; 6: 335-341. doi:10.1186/cc1473"
+  },
+  "references": [
+    {
+      "number": 1,
+      "raw": "Whitley E., Ball J. Statistics review 4: Sample size calculations. Critical Care. 2002; 6: 335-341. doi:10.1186/cc1521",
+      "pages": [
+        1
+      ],
+      "title": "Statistics review 4: Sample size calculations",
+      "author_surnames": [
+        "Whitley",
+        "Ball"
+      ],
+      "year": 2002,
+      "doi": "10.1186/cc1521",
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "search": {
+        "software_version": "0.2.0",
+        "started_at_utc": "2026-11-16T12:27:45.885197+00:00",
+        "input": {
+          "title": "Statistics review 4: Sample size calculations",
+          "doi": "10.1186/cc1521"
+        },
+        "source": "PubMed",
+        "query": "\"10.1186/cc1521\"[AID]",
+        "max_results": 5,
+        "status": "candidates_found",
+        "candidates": [
+          {
+            "pmid": "12225610",
+            "title": "Statistics review 4: sample size calculations.",
+            "authors": [
+              "Elise Whitley",
+              "Jonathan Ball"
+            ],
+            "journal": "Critical care (London, England)",
+            "year": 2002,
+            "medline_date": null,
+            "volume": "6",
+            "issue": "4",
+            "pages": "335-41",
+            "doi": "10.1186/cc1521",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12225610/",
+            "comparison": {
+              "title": true,
+              "doi": true,
+              "year": true,
+              "cited_surnames": true
+            }
+          }
+        ],
+        "requests": [
+          {
+            "endpoint": "esearch.fcgi",
+            "params": {
+              "db": "pubmed",
+              "term": "\"10.1186/cc1521\"[AID]",
+              "retmode": "json",
+              "retmax": 5
+            },
+            "attempt": 1,
+            "timestamp_utc": "2026-11-16T12:27:45.885286+00:00",
+            "http_status": 200,
+            "response_text": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"1\",\"retmax\":\"1\",\"retstart\":\"0\",\"idlist\":[\"12225610\"],\"translationset\":[],\"querytranslation\":\"\\\"10.1186/cc1521\\\"[Publisher ID]\"}}\n"
+          },
+          {
+            "endpoint": "efetch.fcgi",
+            "params": {
+              "db": "pubmed",
+              "id": "12225610",
+              "retmode": "xml"
+            },
+            "attempt": 1,
+            "timestamp_utc": "2026-11-16T12:27:50.851407+00:00",
+            "http_status": 200,
+            "response_text": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Manual\"><PMID Version=\"1\">12225610</PMID><DateCompleted><Year>2002</Year><Month>10</Month><Day>08</Day></DateCompleted><DateRevised><Year>2022</Year><Month>04</Month><Day>10</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Print\">1364-8535</ISSN><JournalIssue CitedMedium=\"Print\"><Volume>6</Volume><Issue>4</Issue><PubDate><Year>2002</Year><Month>Aug</Month></PubDate></JournalIssue><Title>Critical care (London, England)</Title><ISOAbbreviation>Crit Care</ISOAbbreviation></Journal><ArticleTitle>Statistics review 4: sample size calculations.</ArticleTitle><Pagination><StartPage>335</StartPage><EndPage>341</EndPage><MedlinePgn>335-41</MedlinePgn></Pagination><Abstract><AbstractText>The present review introduces the notion of statistical power and the hazard of under-powered studies. The problem of how to calculate an ideal sample size is also discussed within the context of factors that affect power, and specific methods for the calculation of sample size are presented for two common scenarios, along with extensions to the simplest case.</AbstractText></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Whitley</LastName><ForeName>Elise</ForeName><Initials>E</Initials><AffiliationInfo><Affiliation>Medical Statistics, University of Bristol, Bristol, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Ball</LastName><ForeName>Jonathan</ForeName><Initials>J</Initials></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType><PublicationType UI=\"D016454\">Review</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2002</Year><Month>05</Month><Day>10</Day></ArticleDate></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Crit Care</MedlineTA><NlmUniqueID>9801902</NlmUniqueID><ISSNLinking>1364-8535</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D002986\" MajorTopicYN=\"N\">Clinical Trials as Topic</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D012107\" MajorTopicYN=\"N\">Research Design</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D012128\" MajorTopicYN=\"N\">Respiratory Distress Syndrome</DescriptorName><QualifierName UI=\"Q000628\" MajorTopicYN=\"N\">therapy</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D018401\" MajorTopicYN=\"Y\">Sample Size</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D012772\" MajorTopicYN=\"N\">Shock, Septic</DescriptorName><QualifierName UI=\"Q000188\" MajorTopicYN=\"N\">drug therapy</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D013223\" MajorTopicYN=\"Y\">Statistics as Topic</DescriptorName></MeshHeading></MeshHeadingList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"pubmed\"><Year>2002</Year><Month>9</Month><Day>13</Day><Hour>10</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2002</Year><Month>10</Month><Day>9</Day><Hour>4</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2002</Year><Month>9</Month><Day>13</Day><Hour>10</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pmc-release\"><Year>2002</Year><Month>5</Month><Day>10</Day></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">12225610</ArticleId><ArticleId IdType=\"pmc\">PMC137461</ArticleId><ArticleId IdType=\"doi\">10.1186/cc1521</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Moher D, Dulberg CS, Wells GA. Statistical power, sample size, and their reporting in randomized controlled trials. JAMA. 1994;272:122&#x2013;124.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">8015121</ArticleId></ArticleIdList></Reference><Reference><Citation>Machin D, Campbell MJ, Fayers P, Pinol A. Sample Size Tables for Clinical Studies Oxford, UK: Blackwell Science Ltd; 1987.</Citation></Reference><Reference><Citation>Rivers E, Nguyen B, Havstad S, Ressler J, Muzzin A, Knoblich B, Peterson E, Tomlanovich M. Early goal-directed therapy in the treatment of severe sepsis and septic shock. N Engl J Med. 2001;345:1368&#x2013;1377.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">11794169</ArticleId></ArticleIdList></Reference><Reference><Citation>Altman DG. Practical Statistics for Medical Research London, UK; Chapman &amp; Hall; 1991.</Citation></Reference><Reference><Citation>Altman DG. How large a sample? In: Gore SM, Altman DG, editor. Statistics in Practice. London, UK: British Medical Association; 1982.</Citation></Reference><Reference><Citation>Anonymous Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome. The Acute Respiratory Distress Syndrome Network. N Engl J Med. 1996;342:1301&#x2013;1308.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">10793162</ArticleId></ArticleIdList></Reference><Reference><Citation>Gattinoni L, Tognoni G, Pesenti A, Taccone P, Mascheroni D, Labarta V, Malacrida R, Di Giulio P, Fumagalli R, Pelosi P, Brazzi L, Latini R, Prone-Supine Study Group Effect of prone positioning on the survival of patients with acute respiratory failure. N Engl J Med. 2001;345:568&#x2013;573.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">11529210</ArticleId></ArticleIdList></Reference><Reference><Citation>Zijlstra JG, Ligtenberg JJ, van der Werf TS. Prone positioning of patients with acute respiratory failure. N Engl J Med. 2002;346:295&#x2013;297.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">11807160</ArticleId></ArticleIdList></Reference><Reference><Citation>Slutsky AS. The acute respiratory distress syndrome, mechanical ventilation, and the prone position. N Engl J Med. 2001;345:610&#x2013;612.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">11529218</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>"
+          }
+        ],
+        "total_search_hits": 1,
+        "returned_pmids": [
+          "12225610"
+        ]
+      },
+      "status": "metadata_match",
+      "reason": "Title, year and extracted surnames match one PubMed record; extraction still requires review"
+    },
+    {
+      "number": 2,
+      "raw": "Petrov I., Sidorova A. Statistics review 4: Sample size calculations. Critical Care. 2002; 6: 335-341. doi:10.1186/cc1473",
+      "pages": [
+        1
+      ],
+      "title": "Statistics review 4: Sample size calculations",
+      "author_surnames": [
+        "Petrov",
+        "Sidorova"
+      ],
+      "year": 2002,
+      "doi": "10.1186/cc1473",
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "search": {
+        "software_version": "0.2.0",
+        "started_at_utc": "2026-11-16T12:27:54.990715+00:00",
+        "input": {
+          "title": "Statistics review 4: Sample size calculations",
+          "doi": "10.1186/cc1473"
+        },
+        "source": "PubMed",
+        "query": "\"10.1186/cc1473\"[AID]",
+        "max_results": 5,
+        "status": "candidates_found",
+        "candidates": [
+          {
+            "pmid": "11983040",
+            "title": "Statistics review 2: samples and populations.",
+            "authors": [
+              "Elise Whitley",
+              "Jonathan Ball"
+            ],
+            "journal": "Critical care (London, England)",
+            "year": 2002,
+            "medline_date": null,
+            "volume": "6",
+            "issue": "2",
+            "pages": "143-8",
+            "doi": "10.1186/cc1473",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11983040/",
+            "comparison": {
+              "title": false,
+              "doi": true,
+              "year": true,
+              "cited_surnames": false
+            }
+          }
+        ],
+        "requests": [
+          {
+            "endpoint": "esearch.fcgi",
+            "params": {
+              "db": "pubmed",
+              "term": "\"10.1186/cc1473\"[AID]",
+              "retmode": "json",
+              "retmax": 5
+            },
+            "attempt": 1,
+            "timestamp_utc": "2026-11-16T12:27:54.990813+00:00",
+            "http_status": 200,
+            "response_text": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"1\",\"retmax\":\"1\",\"retstart\":\"0\",\"idlist\":[\"11983040\"],\"translationset\":[],\"querytranslation\":\"\\\"10.1186/cc1473\\\"[Publisher ID]\"}}\n"
+          },
+          {
+            "endpoint": "efetch.fcgi",
+            "params": {
+              "db": "pubmed",
+              "id": "11983040",
+              "retmode": "xml"
+            },
+            "attempt": 1,
+            "timestamp_utc": "2026-11-16T12:27:59.792127+00:00",
+            "http_status": 200,
+            "response_text": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Manual\"><PMID Version=\"1\">11983040</PMID><DateCompleted><Year>2002</Year><Month>06</Month><Day>04</Day></DateCompleted><DateRevised><Year>2019</Year><Month>11</Month><Day>05</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Print\">1364-8535</ISSN><JournalIssue CitedMedium=\"Print\"><Volume>6</Volume><Issue>2</Issue><PubDate><Year>2002</Year><Month>Apr</Month></PubDate></JournalIssue><Title>Critical care (London, England)</Title><ISOAbbreviation>Crit Care</ISOAbbreviation></Journal><ArticleTitle>Statistics review 2: samples and populations.</ArticleTitle><Pagination><StartPage>143</StartPage><EndPage>148</EndPage><MedlinePgn>143-8</MedlinePgn></Pagination><Abstract><AbstractText>The previous review in this series introduced the notion of data description and outlined some of the more common summary measures used to describe a dataset. However, a dataset is typically only of interest for the information it provides regarding the population from which it was drawn. The present review focuses on estimation of population values from a sample.</AbstractText></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Whitley</LastName><ForeName>Elise</ForeName><Initials>E</Initials><AffiliationInfo><Affiliation>Lecturer in Medical Statistics, University of Bristol, UK. editorial@ccforum.com</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Ball</LastName><ForeName>Jonathan</ForeName><Initials>J</Initials></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2002</Year><Month>02</Month><Day>07</Day></ArticleDate></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Crit Care</MedlineTA><NlmUniqueID>9801902</NlmUniqueID><ISSNLinking>1364-8535</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D006454\">Hemoglobins</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><CommentsCorrectionsList><CommentsCorrections RefType=\"ErratumIn\"><RefSource>Crit Care. 2003 Feb;7(1):8.</RefSource></CommentsCorrections></CommentsCorrectionsList><MeshHeadingList><MeshHeading><DescriptorName UI=\"D016001\" MajorTopicYN=\"Y\">Confidence Intervals</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D003422\" MajorTopicYN=\"N\">Critical Care</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D006454\" MajorTopicYN=\"N\">Hemoglobins</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D016011\" MajorTopicYN=\"Y\">Normal Distribution</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D011159\" MajorTopicYN=\"Y\">Population Surveillance</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D012016\" MajorTopicYN=\"N\">Reference Values</DescriptorName></MeshHeading></MeshHeadingList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"pubmed\"><Year>2002</Year><Month>5</Month><Day>2</Day><Hour>10</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2002</Year><Month>6</Month><Day>5</Day><Hour>10</Hour><Minute>1</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2002</Year><Month>5</Month><Day>2</Day><Hour>10</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pmc-release\"><Year>2002</Year><Month>2</Month><Day>7</Day></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">11983040</ArticleId><ArticleId IdType=\"pmc\">PMC137296</ArticleId><ArticleId IdType=\"doi\">10.1186/cc1473</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Bland M. An Introduction to Medical Statistics. edn 3. Oxford, UK: Oxford University Press, 2001.</Citation></Reference><Reference><Citation>Kirkwood BR. Essentials of Medical Statistics. London, UK: Blackwell Science Ltd, 1988.</Citation></Reference><Reference><Citation>Altman DG. Practical Statistics for Medical Research. London, UK: Chapman &amp; Hall, 1991.</Citation></Reference><Reference><Citation>Campbell MJ, Machin D. Medical Statistics: a Commonsense Approach. edn 3. Chichester, UK:John Wiley &amp; Sons Ltd, 1993.</Citation></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>"
+          }
+        ],
+        "total_search_hits": 1,
+        "returned_pmids": [
+          "11983040"
+        ]
+      },
+      "status": "metadata_review",
+      "reason": "Candidate records need review for mismatches, ambiguity or missing fields"
+    }
+  ],
+  "status": "completed_with_review",
+  "sources": {
+    "PubMed": "enabled",
+    "eLIBRARY": "not_implemented",
+    "CyberLeninka": "not_implemented",
+    "Google Scholar": "not_implemented"
+  },
+  "summary": {
+    "metadata_match": 1,
+    "metadata_review": 1
+  }
+}

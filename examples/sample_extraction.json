@@ -1,0 +1,555 @@
+{
+  "software_version": "0.2.0",
+  "started_at_utc": "2026-11-16T12:29:17.950948+00:00",
+  "input_file": "03-metody-opredeleniya-minimalno-neobhodimogo-obema-vyborki-v-meditsinskih-issledovaniyah.pdf",
+  "sha256": "af5b83024932004a6e995aa6563a2eab505792a2486a66ac67003077df68ece0",
+  "mode": "extract_only",
+  "extraction": {
+    "pages": [
+      {
+        "page": 1,
+        "text_characters": 1599,
+        "has_text": true
+      },
+      {
+        "page": 2,
+        "text_characters": 1614,
+        "has_text": true
+      },
+      {
+        "page": 3,
+        "text_characters": 1839,
+        "has_text": true
+      },
+      {
+        "page": 4,
+        "text_characters": 1690,
+        "has_text": true
+      },
+      {
+        "page": 5,
+        "text_characters": 1616,
+        "has_text": true
+      },
+      {
+        "page": 6,
+        "text_characters": 1563,
+        "has_text": true
+      },
+      {
+        "page": 7,
+        "text_characters": 1487,
+        "has_text": true
+      },
+      {
+        "page": 8,
+        "text_characters": 1925,
+        "has_text": true
+      },
+      {
+        "page": 9,
+        "text_characters": 1559,
+        "has_text": true
+      },
+      {
+        "page": 10,
+        "text_characters": 1619,
+        "has_text": true
+      },
+      {
+        "page": 11,
+        "text_characters": 1866,
+        "has_text": true
+      },
+      {
+        "page": 12,
+        "text_characters": 1811,
+        "has_text": true
+      },
+      {
+        "page": 13,
+        "text_characters": 894,
+        "has_text": true
+      },
+      {
+        "page": 14,
+        "text_characters": 355,
+        "has_text": true
+      },
+      {
+        "page": 15,
+        "text_characters": 1432,
+        "has_text": true
+      },
+      {
+        "page": 16,
+        "text_characters": 396,
+        "has_text": true
+      },
+      {
+        "page": 17,
+        "text_characters": 1793,
+        "has_text": true
+      },
+      {
+        "page": 18,
+        "text_characters": 1760,
+        "has_text": true
+      },
+      {
+        "page": 19,
+        "text_characters": 1577,
+        "has_text": true
+      }
+    ],
+    "status": "references_extracted",
+    "references": [
+      {
+        "number": 1,
+        "raw": "Machin D., Campbell M., Fayers P., Pinol A. Sample size tables for clinical studies. 3nd ed. Oxford: Blackwell Science. 2009: 315.",
+        "pages": [
+          17
+        ],
+        "title": "Sample size tables for clinical studies",
+        "author_surnames": [
+          "Machin",
+          "Campbell",
+          "Fayers",
+          "Pinol"
+        ],
+        "year": 2009,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 2,
+        "raw": "Chow Sh.-Ch., Shao J., Wang H. Sample size calculations in clinical research. New-York: Marcel Dekker, Inc. 2003: 358 p.",
+        "pages": [
+          17
+        ],
+        "title": "Sample size calculations in clinical research",
+        "author_surnames": [
+          "Chow",
+          "Shao",
+          "Wang"
+        ],
+        "year": 2003,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 3,
+        "raw": "Röhrig B., Prel J.-B., Wachtlin D., Kwiecien R., Blettner M. Sample Size Calculation in Clinical Trials. Part 13 of a Series on Evaluation of Scientific Publications. Deutsches Ärzteblatt International. 2010; 107 (31-32): 552–556.",
+        "pages": [
+          17
+        ],
+        "title": "Sample Size Calculation in Clinical Trials",
+        "author_surnames": [
+          "Röhrig",
+          "Prel",
+          "Wachtlin",
+          "Kwiecien",
+          "Blettner"
+        ],
+        "year": 2010,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 4,
+        "raw": "Whitley E., Ball J. Statistics review 2: Samples and populations. Critical Care. 2002; 6 (2): 143–148.",
+        "pages": [
+          17
+        ],
+        "title": "Statistics review 2: Samples and populations",
+        "author_surnames": [
+          "Whitley",
+          "Ball"
+        ],
+        "year": 2002,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 5,
+        "raw": "Наркевич А.Н., Виноградов К.А. Настольная книга автора медицинской диссертации: пособие. М., Инфра-М. 2019: 454.",
+        "pages": [
+          18
+        ],
+        "title": "Настольная книга автора медицинской диссертации: пособие",
+        "author_surnames": [
+          "Наркевич",
+          "Виноградов"
+        ],
+        "year": 2019,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 6,
+        "raw": "Отдельнова К. А. Определение необходимого числа наблюдений в социально-гигиенических исследованиях. Сб. трудов 2-го ММИ. 1980; 150 (6): 18–22.",
+        "pages": [
+          18
+        ],
+        "title": "Определение необходимого числа наблюдений в социально-гигиенических исследованиях",
+        "author_surnames": [
+          "Отдельнова"
+        ],
+        "year": 1980,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 7,
+        "raw": "Паниотто В. И., Максименко В. С. Количественные методы в социологических исследованиях. Киев: Наукова Думка. 1982: 272.",
+        "pages": [
+          18
+        ],
+        "title": "Количественные методы в социологических исследованиях",
+        "author_surnames": [
+          "Паниотто",
+          "Максименко"
+        ],
+        "year": 1982,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 8,
+        "raw": "Fox N., Hunn A., Mathers N. Sampling and sample size calculation. – Yorkshire & the Humber: The NIHR RDS for the East Midlands. 2007: 41.",
+        "pages": [
+          18
+        ],
+        "title": "Sampling and sample size calculation",
+        "author_surnames": [
+          "Fox",
+          "Hunn",
+          "Mathers"
+        ],
+        "year": 2007,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 9,
+        "raw": "Сырцова Л.Е., Косаговская И.И., Авсентьева М.В. Основы эпидемиологии и статистического анализа в общественном здоровье и управлении здравоохранением: учебное пособие. М., 2004: 194.",
+        "pages": [
+          18
+        ],
+        "title": "Основы эпидемиологии и статистического анализа в общественном здоровье и управлении здравоохранением: учебное пособие",
+        "author_surnames": [
+          "Сырцова",
+          "Косаговская",
+          "Авсентьева"
+        ],
+        "year": 2004,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 10,
+        "raw": "Altman D.G. How large a sample? In: Gore SM, Altman DG (eds.). Statistics in Practice. London, UK: British Medical Association. 1982: 100.",
+        "pages": [
+          18
+        ],
+        "title": "How large a sample? In: Gore SM, Altman DG (eds.)",
+        "author_surnames": [
+          "Altman"
+        ],
+        "year": 1982,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 11,
+        "raw": "Whitley E., Ball J. Statistics review 4: Sample size calculations. Critical Care. 2002; 6 (4): 335–341.",
+        "pages": [
+          18
+        ],
+        "title": "Statistics review 4: Sample size calculations",
+        "author_surnames": [
+          "Whitley",
+          "Ball"
+        ],
+        "year": 2002,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      },
+      {
+        "number": 12,
+        "raw": "Lehr R. Sixteen s-squared over d-squared: a relation for crude sample size estimates. Statistics in medicine. 1992; (11): 1099-1102.",
+        "pages": [
+          18
+        ],
+        "title": "Sixteen s-squared over d-squared: a relation for crude sample size estimates",
+        "author_surnames": [
+          "Lehr"
+        ],
+        "year": 1992,
+        "doi": null,
+        "parsing_method": "rules_v1",
+        "metadata_requires_review": true
+      }
+    ],
+    "warnings": [
+      "Rule-based title and author extraction requires review; unsupported styles may be missed"
+    ],
+    "section_text": "1. Machin D., Campbell M., Fayers P., Pinol A. Sample size tables for\nclinical studies. 3nd ed. Oxford: Blackwell Science. 2009: 315.\n2. Chow Sh.-Ch., Shao J., Wang H. Sample size calculations in clinical\nresearch. New-York: Marcel Dekker, Inc. 2003: 358 p.\n3. Röhrig B., Prel J.-B., Wachtlin D., Kwiecien R., Blettner M. Sample Size\nCalculation in Clinical Trials. Part 13 of a Series on Evaluation of Scientific\nPublications. Deutsches Ärzteblatt International. 2010; 107 (31-32): 552–556.\n4. Whitley E., Ball J. Statistics review 2: Samples and populations. Critical\nCare. 2002; 6 (2): 143–148.\n5. Наркевич А.Н., Виноградов К.А. Настольная книга автора меди-\nцинской диссертации: пособие. М., Инфра-М. 2019: 454.\n6. Отдельнова К. А. Определение необходимого числа наблюдений в\nсоциально-гигиенических исследованиях. Сб. трудов 2-го ММИ. 1980;\n150 (6): 18–22.\n7. Паниотто В. И., Максименко В. С. Количественные методы в социо-\nлогических исследованиях. Киев: Наукова Думка. 1982: 272.\n8. Fox N., Hunn A., Mathers N. Sampling and sample size calculation. –\nYorkshire & the Humber: The NIHR RDS for the East Midlands. 2007: 41.\n9. Сырцова Л.Е., Косаговская И.И., Авсентьева М.В. Основы эпиде-\nмиологии и статистического анализа в общественном здоровье и управле-\nнии здравоохранением: учебное пособие. М., 2004: 194.\n10.Altman D.G. How large a sample? In: Gore SM, Altman DG (eds.).\nStatistics in Practice. London, UK: British Medical Association. 1982: 100.\n11.Whitley E., Ball J. Statistics review 4: Sample size calculations. Critical\nCare. 2002; 6 (4): 335–341.\n12.Lehr R. Sixteen s-squared over d-squared: a relation for crude sample\nsize estimates. Statistics in medicine. 1992; (11): 1099-1102."
+  },
+  "references": [
+    {
+      "number": 1,
+      "raw": "Machin D., Campbell M., Fayers P., Pinol A. Sample size tables for clinical studies. 3nd ed. Oxford: Blackwell Science. 2009: 315.",
+      "pages": [
+        17
+      ],
+      "title": "Sample size tables for clinical studies",
+      "author_surnames": [
+        "Machin",
+        "Campbell",
+        "Fayers",
+        "Pinol"
+      ],
+      "year": 2009,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    },
+    {
+      "number": 2,
+      "raw": "Chow Sh.-Ch., Shao J., Wang H. Sample size calculations in clinical research. New-York: Marcel Dekker, Inc. 2003: 358 p.",
+      "pages": [
+        17
+      ],
+      "title": "Sample size calculations in clinical research",
+      "author_surnames": [
+        "Chow",
+        "Shao",
+        "Wang"
+      ],
+      "year": 2003,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    },
+    {
+      "number": 3,
+      "raw": "Röhrig B., Prel J.-B., Wachtlin D., Kwiecien R., Blettner M. Sample Size Calculation in Clinical Trials. Part 13 of a Series on Evaluation of Scientific Publications. Deutsches Ärzteblatt International. 2010; 107 (31-32): 552–556.",
+      "pages": [
+        17
+      ],
+      "title": "Sample Size Calculation in Clinical Trials",
+      "author_surnames": [
+        "Röhrig",
+        "Prel",
+        "Wachtlin",
+        "Kwiecien",
+        "Blettner"
+      ],
+      "year": 2010,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    },
+    {
+      "number": 4,
+      "raw": "Whitley E., Ball J. Statistics review 2: Samples and populations. Critical Care. 2002; 6 (2): 143–148.",
+      "pages": [
+        17
+      ],
+      "title": "Statistics review 2: Samples and populations",
+      "author_surnames": [
+        "Whitley",
+        "Ball"
+      ],
+      "year": 2002,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    },
+    {
+      "number": 5,
+      "raw": "Наркевич А.Н., Виноградов К.А. Настольная книга автора медицинской диссертации: пособие. М., Инфра-М. 2019: 454.",
+      "pages": [
+        18
+      ],
+      "title": "Настольная книга автора медицинской диссертации: пособие",
+      "author_surnames": [
+        "Наркевич",
+        "Виноградов"
+      ],
+      "year": 2019,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    },
+    {
+      "number": 6,
+      "raw": "Отдельнова К. А. Определение необходимого числа наблюдений в социально-гигиенических исследованиях. Сб. трудов 2-го ММИ. 1980; 150 (6): 18–22.",
+      "pages": [
+        18
+      ],
+      "title": "Определение необходимого числа наблюдений в социально-гигиенических исследованиях",
+      "author_surnames": [
+        "Отдельнова"
+      ],
+      "year": 1980,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    },
+    {
+      "number": 7,
+      "raw": "Паниотто В. И., Максименко В. С. Количественные методы в социологических исследованиях. Киев: Наукова Думка. 1982: 272.",
+      "pages": [
+        18
+      ],
+      "title": "Количественные методы в социологических исследованиях",
+      "author_surnames": [
+        "Паниотто",
+        "Максименко"
+      ],
+      "year": 1982,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    },
+    {
+      "number": 8,
+      "raw": "Fox N., Hunn A., Mathers N. Sampling and sample size calculation. – Yorkshire & the Humber: The NIHR RDS for the East Midlands. 2007: 41.",
+      "pages": [
+        18
+      ],
+      "title": "Sampling and sample size calculation",
+      "author_surnames": [
+        "Fox",
+        "Hunn",
+        "Mathers"
+      ],
+      "year": 2007,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    },
+    {
+      "number": 9,
+      "raw": "Сырцова Л.Е., Косаговская И.И., Авсентьева М.В. Основы эпидемиологии и статистического анализа в общественном здоровье и управлении здравоохранением: учебное пособие. М., 2004: 194.",
+      "pages": [
+        18
+      ],
+      "title": "Основы эпидемиологии и статистического анализа в общественном здоровье и управлении здравоохранением: учебное пособие",
+      "author_surnames": [
+        "Сырцова",
+        "Косаговская",
+        "Авсентьева"
+      ],
+      "year": 2004,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    },
+    {
+      "number": 10,
+      "raw": "Altman D.G. How large a sample? In: Gore SM, Altman DG (eds.). Statistics in Practice. London, UK: British Medical Association. 1982: 100.",
+      "pages": [
+        18
+      ],
+      "title": "How large a sample? In: Gore SM, Altman DG (eds.)",
+      "author_surnames": [
+        "Altman"
+      ],
+      "year": 1982,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    },
+    {
+      "number": 11,
+      "raw": "Whitley E., Ball J. Statistics review 4: Sample size calculations. Critical Care. 2002; 6 (4): 335–341.",
+      "pages": [
+        18
+      ],
+      "title": "Statistics review 4: Sample size calculations",
+      "author_surnames": [
+        "Whitley",
+        "Ball"
+      ],
+      "year": 2002,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    },
+    {
+      "number": 12,
+      "raw": "Lehr R. Sixteen s-squared over d-squared: a relation for crude sample size estimates. Statistics in medicine. 1992; (11): 1099-1102.",
+      "pages": [
+        18
+      ],
+      "title": "Sixteen s-squared over d-squared: a relation for crude sample size estimates",
+      "author_surnames": [
+        "Lehr"
+      ],
+      "year": 1992,
+      "doi": null,
+      "parsing_method": "rules_v1",
+      "metadata_requires_review": true,
+      "needs_human_review": true,
+      "status": "not_checked",
+      "reason": "Extraction only or per-run limit reached"
+    }
+  ],
+  "status": "completed_with_review",
+  "sources": {
+    "PubMed": "not_run",
+    "eLIBRARY": "not_implemented",
+    "CyberLeninka": "not_implemented",
+    "Google Scholar": "not_implemented"
+  },
+  "summary": {
+    "not_checked": 12
+  }
+}
